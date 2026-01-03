@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #f0ebce;
+  background-color: #395144;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #aa8b56;
+  font-weight: 500;
+}
+
+.nav ul li a:hover {
+  color: #f0ebce; /* 호버 시 색 변경 */
+}
+
+/*
+#395144
+#4E6C50
+#AA8B56
+#F0EBCE
+*/
