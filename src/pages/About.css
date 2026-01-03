@@ -1,0 +1,88 @@
+/* About.css */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  gap: 20px;
+}
+
+.about-info {
+  flex: 6.5;
+  padding: 20px;
+}
+
+.about-name {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-contacts {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.about-contacts a {
+  color: #555;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.about-contacts a:hover {
+  color: #555;
+}
+
+.about-profile {
+  flex: 3.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-profile img {
+  padding: 20px;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-info {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-profile {
+    flex: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-profile img {
+    max-width: 150px;
+  }
+}

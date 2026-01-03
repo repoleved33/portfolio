@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"; // 스타일용
+
+import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <h2>Guuchive</h2>
+        <h2>Welcome!</h2>
       </div>
       <nav className="nav">
         <ul>
