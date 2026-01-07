@@ -1,10 +1,4 @@
 const experienceData = {
-  name: "John Doe",
-  email: "john.doe@example.com",
-  github: "https://github.com/johndoe",
-  linkedin: "https://linkedin.com/in/johndoe",
-  location: "London, UK",
-  role: "Software Engineer",
   experiences: [
     {
       role: "Web Application Management for Semiconductor Material Process",
@@ -29,6 +23,35 @@ const experienceData = {
       period: "July 2018 – May 2021",
       description:
         "Managed web operations for manufacturing ERP systems including server management, data handling, backend and frontend development.",
+    },
+  ],
+  skills: [
+    {
+      category: "Programming Languages",
+      items: ["Java", "JavaScript", "SQL", "Python", "C"],
+    },
+    {
+      category: "Frontend Development",
+      items: ["React", "JSP"],
+    },
+    {
+      category: "Backend Development",
+      items: ["Spring Framework (in-house)", "Spring Boot", "Django"],
+    },
+    {
+      category: "Web & DevOps",
+      items: [
+        "Nginx",
+        "Apache",
+        "Git",
+        "Jenkins",
+        "JIRA",
+        "In-house Cloud (Kubernetes-based)",
+      ],
+    },
+    {
+      category: "Data Analysis & ML",
+      items: ["Jupyter Notebooks", "ETL Data Pipelines"],
     },
   ],
 };

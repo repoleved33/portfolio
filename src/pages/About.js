@@ -1,6 +1,7 @@
 import React from "react";
 
 import ExperienceItem from "../components/ExperienceItem";
+import SkillsItem from "../components/SkillsItem";
 
 import "./About.css";
 import profileImage from "../assets/profile.jpg";
@@ -45,18 +46,23 @@ function About() {
               <FaLinkedin />
             </a>
           </div>
-          <p className="about-description">
-            Software Engineer with 4+ years of experience operating web
-            applications. After focusing on personal growth and exploring my
-            strengths, I'm now eager to relaunch my career in software
-            development.
-          </p>
+          <p className="about-description">{info.description}</p>
         </div>
       </div>
       <div className="about-experience">
         <h2>Experience</h2>
         {experienceData.experiences.map((exp, idx) => (
           <ExperienceItem key={idx} {...exp} />
+        ))}
+      </div>
+      <div className="about-skills">
+        <h2>Skills</h2>
+        {experienceData.skills.map((skillCate, idx) => (
+          <SkillsItem
+            key={idx}
+            category={skillCate.category}
+            items={skillCate.items}
+          />
         ))}
       </div>
     </div>
