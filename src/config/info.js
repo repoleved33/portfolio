@@ -1,7 +1,7 @@
 const info = {
   name: "Guuchive",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
+  email: "repoleved33@gmail.com",
+  github: "https://github.com/repoleved33",
   linkedin: "https://linkedin.com/in/yourprofile",
 };
 
