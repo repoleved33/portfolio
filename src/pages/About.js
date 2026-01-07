@@ -5,7 +5,7 @@ import ExperienceItem from "../components/ExperienceItem";
 import "./About.css";
 import profileImage from "../assets/profile.jpg";
 import info from "../config/info";
-import experience from "../config/experience";
+import experienceData from "../config/experienceData";
 
 import {
   FaMapMarkerAlt,
@@ -55,7 +55,7 @@ function About() {
       </div>
       <div className="about-experience">
         <h2>Experience</h2>
-        {experience.experiences.map((exp, idx) => (
+        {experienceData.experiences.map((exp, idx) => (
           <ExperienceItem key={idx} {...exp} />
         ))}
       </div>
