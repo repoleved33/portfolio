@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Jan 2026 17:43:48 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 17:43:48 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Phantom</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 21:15:00 +0000</pubDate>
+        <link>http://localhost:4000/your-dir-name/development/design/2016/02/20/phantom-jekyll-template.html</link>
+        <guid isPermaLink="true">http://localhost:4000/your-dir-name/development/design/2016/02/20/phantom-jekyll-template.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Sass</category>
+        
+        <category>Bootstrap</category>
+        
+        
+        <category>your-dir-name</category>
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Rescue Themes</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 15:56:00 +0000</pubDate>
+        <link>http://localhost:4000/your-dir-name/development/design/2016/02/20/rescue-themes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/your-dir-name/development/design/2016/02/20/rescue-themes.html</guid>
+        
+        <category>WordPress</category>
+        
+        <category>PHP</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>your-dir-name</category>
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Weathercast</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 15:56:00 +0000</pubDate>
+        <link>http://localhost:4000/your-dir-name/development/2016/02/20/weathercast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/your-dir-name/development/2016/02/20/weathercast.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>API</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>your-dir-name</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Bloc Jams Angular</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 14:15:00 +0000</pubDate>
+        <link>http://localhost:4000/your-dir-name/development/2016/02/20/bloc-jams-angular.html</link>
+        <guid isPermaLink="true">http://localhost:4000/your-dir-name/development/2016/02/20/bloc-jams-angular.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>Sass</category>
+        
+        <category>Grunt</category>
+        
+        
+        <category>your-dir-name</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

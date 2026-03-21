@@ -1,57 +1,62 @@
 const experienceData = {
   experiences: [
     {
-      role: "Web Application Management for Semiconductor Material Process",
+      role: "Software Engineer (Full-stack)",
+      company: "Independent Projects",
+      location: "London, UK",
+      period: "Jan 2026 – Present",
+      description:
+        "Developing 'Fragrance Tracker', a cross-platform mobile app using React Native and Supabase. Implementing automated data pipelines with Python (BeautifulSoup) to manage complex fragrance datasets.",
+    },
+    {
+      role: "Web Application Management (Semiconductor Process)",
       company: "SK C&C",
-      location: "Sungnam-si, South Korea",
+      location: "Seongnam, South Korea",
       period: "March 2022 – April 2023",
       description:
-        "Managed web applications for reviewing and analysing semiconductor process images. Handled backend development and data pipeline management to streamline workflows.",
+        "Managed web applications for reviewing and analysing semiconductor process images. Handled backend development and data pipeline management to streamline technical workflows.",
     },
     {
-      role: "Frontend Technical Lead for Analytics & Visualisation Platform",
+      role: "Frontend Technical Lead (Analytics Platform)",
       company: "SK C&C",
-      location: "Sungnam-si, South Korea",
+      location: "Seongnam, South Korea",
       period: "June 2021 – February 2022",
       description:
-        "Led frontend development, delivering efficient data visualisation and error tracking for semiconductor test results. Analysed and presented findings through charts and graphs.",
+        "Led frontend development for a data visualisation platform. Delivered efficient error tracking and presented semiconductor test results through interactive charts and graphs.",
     },
     {
-      role: "Web Operations for ERP System",
+      role: "Web Operations (ERP System)",
       company: "SK C&C",
-      location: "Sungnam-si, South Korea",
+      location: "Seongnam, South Korea",
       period: "July 2018 – May 2021",
       description:
-        "Managed web operations for manufacturing ERP systems including server management, data handling, backend and frontend development.",
+        "Managed web operations for manufacturing ERP systems. Responsible for server management, data handling, and both backend and frontend development for enterprise stability.",
     },
   ],
   skills: [
     {
       category: "Programming Languages",
-      items: ["Java", "JavaScript", "SQL", "Python", "C"],
+      items: ["JavaScript", "TypeScript", "Python", "Java", "SQL"],
     },
     {
-      category: "Frontend Development",
-      items: ["React", "JSP"],
+      category: "Frontend & Mobile",
+      items: ["React Native", "React", "TypeScript", "HTML5/CSS3"],
     },
     {
-      category: "Backend Development",
-      items: ["Spring Framework (in-house)", "Spring Boot", "Django"],
+      category: "Backend & Database",
+      items: ["Node.js", "Spring Boot", "Django", "Supabase", "PostgreSQL"],
     },
     {
-      category: "Web & DevOps",
+      category: "DevOps & Tools",
+      items: ["Git", "Docker", "Kubernetes", "Jenkins", "Nginx", "JIRA"],
+    },
+    {
+      category: "Data & Automation",
       items: [
-        "Nginx",
-        "Apache",
-        "Git",
-        "Jenkins",
-        "JIRA",
-        "In-house Cloud (Kubernetes-based)",
+        "Web Scraping (BeautifulSoup)",
+        "ETL Pipelines",
+        "Jupyter Notebooks",
       ],
-    },
-    {
-      category: "Data Analysis & ML",
-      items: ["Jupyter Notebooks", "ETL Data Pipelines"],
     },
   ],
 };

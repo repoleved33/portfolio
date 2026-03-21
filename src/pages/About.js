@@ -50,7 +50,7 @@ function About() {
         </div>
       </div>
       <div className="about-experience">
-        <h2>Experience</h2>
+        <h2>Professional Experience</h2>
         {experienceData.experiences.map((exp, idx) => (
           <ExperienceItem key={idx} {...exp} />
         ))}
